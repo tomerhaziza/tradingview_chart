@@ -204,7 +204,7 @@ export default {
     },
 
     onChartReady() {
-      if (!this.mobile) this.addCustomButtonsToChart();
+      if (!this.isMobile) this.addCustomButtonsToChart();
       this.initSaveLoad();
     },
 
